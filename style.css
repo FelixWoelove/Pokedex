@@ -41,6 +41,11 @@
     align-items: center;
     flex-direction: column;
     margin: 2rem 0;
+    background-image: url(./assets/image.png.6fb189a5623ccff18dd03a0d3dce77d2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
   }
   
   .input-container {
@@ -134,9 +139,11 @@
   }
   
   .pokeId {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: bold;
     color: gray;
+    background-color: white;
+    border-radius: 4px;
   }
   
   footer {
